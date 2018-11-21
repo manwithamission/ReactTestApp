@@ -1,0 +1,42 @@
+{
+	"name": "reactapp",
+	"version": "1.0.0",
+	"description": "react test app",
+	"main": "index.js",
+	"scripts": {
+		"start": "webpack --mode development --watch",
+		"build": "webpack --mode production"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/manwithamission/ReactTestApp.git"
+	},
+	"keywords": [
+		"react",
+		"redux",
+		"styled",
+		"components",
+		"webpack"
+	],
+	"author": "Lee A.",
+	"license": "ISC",
+	"bugs": {
+		"url": "https://github.com/manwithamission/ReactTestApp/issues"
+	},
+	"homepage": "https://github.com/manwithamission/ReactTestApp#readme",
+	"devDependencies": {
+		"@babel/core": "^7.1.6",
+		"@babel/preset-env": "^7.1.6",
+		"@babel/preset-react": "^7.0.0",
+		"babel-loader": "^8.0.4",
+		"babel-plugin-styled-components": "^1.8.0",
+		"html-webpack-plugin": "^3.2.0",
+		"webpack": "^4.26.0",
+		"webpack-cli": "^3.1.2"
+	},
+	"dependencies": {
+		"react": "^16.6.3",
+		"react-dom": "^16.6.3",
+		"styled-components": "^4.1.1"
+	}
+}
